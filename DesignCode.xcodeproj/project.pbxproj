@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14482D572506CB6A00EA5E53 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14482D562506CB6A00EA5E53 /* HomeView.swift */; };
 		14C2B39625066AFD004E8477 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C2B39525066AFD004E8477 /* AppDelegate.swift */; };
 		14C2B39825066AFD004E8477 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C2B39725066AFD004E8477 /* SceneDelegate.swift */; };
 		14C2B39A25066AFD004E8477 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C2B39925066AFD004E8477 /* ContentView.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		14482D562506CB6A00EA5E53 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		14C2B39225066AFD004E8477 /* DesignCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14C2B39525066AFD004E8477 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14C2B39725066AFD004E8477 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				14C2B39725066AFD004E8477 /* SceneDelegate.swift */,
 				14C2B39925066AFD004E8477 /* ContentView.swift */,
 				14C2B3AB25069B2F004E8477 /* Home.swift */,
+				14482D562506CB6A00EA5E53 /* HomeView.swift */,
 				14C2B3A92506934C004E8477 /* MenuView.swift */,
 				14C2B39B25066AFE004E8477 /* Assets.xcassets */,
 				14C2B3A025066AFE004E8477 /* LaunchScreen.storyboard */,
@@ -155,6 +158,7 @@
 				14C2B39625066AFD004E8477 /* AppDelegate.swift in Sources */,
 				14C2B3AA2506934C004E8477 /* MenuView.swift in Sources */,
 				14C2B3AC25069B2F004E8477 /* Home.swift in Sources */,
+				14482D572506CB6A00EA5E53 /* HomeView.swift in Sources */,
 				14C2B39825066AFD004E8477 /* SceneDelegate.swift in Sources */,
 				14C2B39A25066AFD004E8477 /* ContentView.swift in Sources */,
 			);
