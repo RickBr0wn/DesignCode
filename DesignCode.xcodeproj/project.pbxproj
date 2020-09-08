@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		141DE36A2507B94500E35763 /* UpdateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141DE3692507B94500E35763 /* UpdateList.swift */; };
 		141DE36C2507BCB600E35763 /* UpdateDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141DE36B2507BCB600E35763 /* UpdateDetail.swift */; };
+		141DE36E2507C07200E35763 /* UpdateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141DE36D2507C07200E35763 /* UpdateStore.swift */; };
 		14482D572506CB6A00EA5E53 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14482D562506CB6A00EA5E53 /* HomeView.swift */; };
 		14C2B39625066AFD004E8477 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C2B39525066AFD004E8477 /* AppDelegate.swift */; };
 		14C2B39825066AFD004E8477 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C2B39725066AFD004E8477 /* SceneDelegate.swift */; };
@@ -23,6 +24,7 @@
 /* Begin PBXFileReference section */
 		141DE3692507B94500E35763 /* UpdateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateList.swift; sourceTree = "<group>"; };
 		141DE36B2507BCB600E35763 /* UpdateDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDetail.swift; sourceTree = "<group>"; };
+		141DE36D2507C07200E35763 /* UpdateStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateStore.swift; sourceTree = "<group>"; };
 		14482D562506CB6A00EA5E53 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		14C2B39225066AFD004E8477 /* DesignCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14C2B39525066AFD004E8477 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 				14C2B3A92506934C004E8477 /* MenuView.swift */,
 				141DE3692507B94500E35763 /* UpdateList.swift */,
 				141DE36B2507BCB600E35763 /* UpdateDetail.swift */,
+				141DE36D2507C07200E35763 /* UpdateStore.swift */,
 				14C2B39B25066AFE004E8477 /* Assets.xcassets */,
 				14C2B3A025066AFE004E8477 /* LaunchScreen.storyboard */,
 				14C2B3A325066AFE004E8477 /* Info.plist */,
@@ -162,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				14C2B39625066AFD004E8477 /* AppDelegate.swift in Sources */,
+				141DE36E2507C07200E35763 /* UpdateStore.swift in Sources */,
 				141DE36A2507B94500E35763 /* UpdateList.swift in Sources */,
 				14C2B3AA2506934C004E8477 /* MenuView.swift in Sources */,
 				141DE36C2507BCB600E35763 /* UpdateDetail.swift in Sources */,
