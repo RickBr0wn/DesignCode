@@ -20,6 +20,7 @@
 		14C2B3AA2506934C004E8477 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C2B3A92506934C004E8477 /* MenuView.swift */; };
 		14C2B3AC25069B2F004E8477 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C2B3AB25069B2F004E8477 /* Home.swift */; };
 		14E98EFD2507C6BE00AC078C /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E98EFC2507C6BE00AC078C /* TabBar.swift */; };
+		14E98EFF2507CB6F00AC078C /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E98EFE2507CB6F00AC078C /* RingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		14C2B3A92506934C004E8477 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		14C2B3AB25069B2F004E8477 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		14E98EFC2507C6BE00AC078C /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		14E98EFE2507CB6F00AC078C /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				14C2B39525066AFD004E8477 /* AppDelegate.swift */,
 				14C2B39725066AFD004E8477 /* SceneDelegate.swift */,
 				14C2B39925066AFD004E8477 /* ContentView.swift */,
+				14E98EFE2507CB6F00AC078C /* RingView.swift */,
 				14C2B3AB25069B2F004E8477 /* Home.swift */,
 				14482D562506CB6A00EA5E53 /* HomeView.swift */,
 				14C2B3A92506934C004E8477 /* MenuView.swift */,
@@ -172,6 +175,7 @@
 				141DE36A2507B94500E35763 /* UpdateList.swift in Sources */,
 				14C2B3AA2506934C004E8477 /* MenuView.swift in Sources */,
 				141DE36C2507BCB600E35763 /* UpdateDetail.swift in Sources */,
+				14E98EFF2507CB6F00AC078C /* RingView.swift in Sources */,
 				14C2B3AC25069B2F004E8477 /* Home.swift in Sources */,
 				14482D572506CB6A00EA5E53 /* HomeView.swift in Sources */,
 				14C2B39825066AFD004E8477 /* SceneDelegate.swift in Sources */,
