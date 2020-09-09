@@ -20,6 +20,7 @@
 		14C2B3A225066AFE004E8477 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14C2B3A025066AFE004E8477 /* LaunchScreen.storyboard */; };
 		14C2B3AA2506934C004E8477 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C2B3A92506934C004E8477 /* MenuView.swift */; };
 		14C2B3AC25069B2F004E8477 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C2B3AB25069B2F004E8477 /* Home.swift */; };
+		14C732B92509878300548E69 /* CourseDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C732B82509878300548E69 /* CourseDetail.swift */; };
 		14E98EFD2507C6BE00AC078C /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E98EFC2507C6BE00AC078C /* TabBar.swift */; };
 		14E98EFF2507CB6F00AC078C /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E98EFE2507CB6F00AC078C /* RingView.swift */; };
 		14E98F012507DB0D00AC078C /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E98F002507DB0D00AC078C /* Modifiers.swift */; };
@@ -63,6 +64,7 @@
 		14C2B3A325066AFE004E8477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14C2B3A92506934C004E8477 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		14C2B3AB25069B2F004E8477 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		14C732B82509878300548E69 /* CourseDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetail.swift; sourceTree = "<group>"; };
 		14E98EFC2507C6BE00AC078C /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		14E98EFE2507CB6F00AC078C /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
 		14E98F002507DB0D00AC078C /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				14C2B3AB25069B2F004E8477 /* Home.swift */,
 				14482D562506CB6A00EA5E53 /* HomeView.swift */,
 				1481EA9925091DF500A0BFC6 /* CourseList.swift */,
+				14C732B82509878300548E69 /* CourseDetail.swift */,
 				14C2B3A92506934C004E8477 /* MenuView.swift */,
 				141DE3692507B94500E35763 /* UpdateList.swift */,
 				141DE36B2507BCB600E35763 /* UpdateDetail.swift */,
@@ -291,6 +294,7 @@
 				14482D572506CB6A00EA5E53 /* HomeView.swift in Sources */,
 				14C2B39825066AFD004E8477 /* SceneDelegate.swift in Sources */,
 				14C2B39A25066AFD004E8477 /* ContentView.swift in Sources */,
+				14C732B92509878300548E69 /* CourseDetail.swift in Sources */,
 				14E98EFD2507C6BE00AC078C /* TabBar.swift in Sources */,
 				1481EA9A25091DF500A0BFC6 /* CourseList.swift in Sources */,
 			);
