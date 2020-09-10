@@ -9,23 +9,18 @@
 import SwiftUI
 
 struct PostList: View {
-  @State var posts: [Post] = []
+  @ObservedObject var store = DataStore()
   
   var body: some View {
-    List(posts) { post in
-      VStack(alignment: .leading, spacing: 12) {
+    List(store.posts) { post in
+      VStack(alignment: .leading, spacing: 8) {
         Text(post.title)
-          .font(.title).bold()
+          .font(.system(.title, design: .serif)).bold()
         Text(post.body)
-          .font(.caption)
-          .foregroundColor(Color.gray)
+          .font(.subheadline)
+          .foregroundColor(Color.secondary)
       }
       
-    }
-    .onAppear {
-      Api().getPosts { posts in
-        self.posts = posts
-      }
     }
   }
 }
