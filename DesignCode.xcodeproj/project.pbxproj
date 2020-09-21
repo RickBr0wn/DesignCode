@@ -17,6 +17,7 @@
 		14541B2B250A9024007AFBC5 /* Contentful in Frameworks */ = {isa = PBXBuildFile; productRef = 14541B2A250A9024007AFBC5 /* Contentful */; };
 		14541B2D250A9861007AFBC5 /* CourseStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14541B2C250A9861007AFBC5 /* CourseStore.swift */; };
 		1481EA9A25091DF500A0BFC6 /* CourseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1481EA9925091DF500A0BFC6 /* CourseList.swift */; };
+		14A23F52251268160099F625 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 14A23F51251268160099F625 /* SDWebImageSwiftUI */; };
 		14C2B39625066AFD004E8477 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C2B39525066AFD004E8477 /* AppDelegate.swift */; };
 		14C2B39825066AFD004E8477 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C2B39725066AFD004E8477 /* SceneDelegate.swift */; };
 		14C2B39A25066AFD004E8477 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C2B39925066AFD004E8477 /* ContentView.swift */; };
@@ -106,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14A23F52251268160099F625 /* SDWebImageSwiftUI in Frameworks */,
 				14541B2B250A9024007AFBC5 /* Contentful in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,6 +224,7 @@
 			name = DesignCode;
 			packageProductDependencies = (
 				14541B2A250A9024007AFBC5 /* Contentful */,
+				14A23F51251268160099F625 /* SDWebImageSwiftUI */,
 			);
 			productName = DesignCode;
 			productReference = 14C2B39225066AFD004E8477 /* Design+Code.app */;
@@ -234,7 +237,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1170;
-				LastUpgradeCheck = 1170;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Rick Brown";
 				TargetAttributes = {
 					14C2B39125066AFD004E8477 = {
@@ -253,6 +256,7 @@
 			mainGroup = 14C2B38925066AFD004E8477;
 			packageReferences = (
 				14541B29250A9024007AFBC5 /* XCRemoteSwiftPackageReference "contentful.swift" */,
+				14A23F50251268160099F625 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
 			);
 			productRefGroup = 14C2B39325066AFD004E8477 /* Products */;
 			projectDirPath = "";
@@ -364,6 +368,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -388,7 +393,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -424,6 +429,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -442,7 +448,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -524,6 +530,14 @@
 				minimumVersion = 5.2.0;
 			};
 		};
+		14A23F50251268160099F625 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -531,6 +545,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 14541B29250A9024007AFBC5 /* XCRemoteSwiftPackageReference "contentful.swift" */;
 			productName = Contentful;
+		};
+		14A23F51251268160099F625 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 14A23F50251268160099F625 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

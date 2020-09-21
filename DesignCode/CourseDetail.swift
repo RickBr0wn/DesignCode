@@ -7,6 +7,7 @@
 //
 
 import SwiftUI
+import SDWebImageSwiftUI
 
 struct CourseDetail: View {
   var course: Course
@@ -44,7 +45,7 @@ struct CourseDetail: View {
             }
           }
           Spacer()
-          Image(uiImage: course.image)
+          WebImage(url: course.image)
             .resizable()
             .aspectRatio(contentMode: .fit)
             .frame(maxWidth: .infinity)
@@ -52,10 +53,11 @@ struct CourseDetail: View {
         }
         .padding(show ? 30 : 20)
         .padding(.top, show ? 30 : 0)
-        .frame(maxWidth: show ? .infinity : screen.width - 60, maxHeight: show ? 460 : 280 )
-        .background(Color(course.color))
-        .clipShape(RoundedRectangle(cornerRadius: 30, style: .continuous))
-        .shadow(color: Color(course.color).opacity(0.3), radius: 20, x: 0, y: 20)
+          //        .frame(width: show ? screen.width : screen.width - 60, height: show ? screen.height : 280)
+          .frame(maxWidth: show ? .infinity : screen.width - 60, maxHeight: show ? 460 : 280)
+          .background(Color(course.color))
+          .clipShape(RoundedRectangle(cornerRadius: 30, style: .continuous))
+          .shadow(color: Color(course.color).opacity(0.3), radius: 20, x: 0, y: 20)
         
         VStack(alignment: .leading, spacing: 30.0) {
           Text("Take your SwiftUI app to the App Store with advanced techniques like API data, packages and CMS.")
