@@ -181,14 +181,14 @@ struct BottomCardView: View {
         .cornerRadius(3)
         .opacity(0.1)
       
-      Text("This certificate is proof that <Student_Name> has achieved the UI Design course with approval from a DesignCode instructor")
+      Text("This certificate is proof that Richard Brown has achieved the UI Design course with approval from a DesignCode instructor")
         .multilineTextAlignment(.center)
         .font(.subheadline)
         .lineSpacing(4)
       
       HStack(spacing: 20.0) {
         RingView(color1: #colorLiteral(red: 0.2588235438, green: 0.7568627596, blue: 0.9686274529, alpha: 1), color2: #colorLiteral(red: 0.1764705926, green: 0.01176470611, blue: 0.5607843399, alpha: 1), width: 88, height: 88, percentage: 78, show: $show)
-          .animation(Animation.easeInOut.delay(0.3))
+//          .animation(Animation.easeInOut.delay(0.3))
         
         VStack(alignment: .leading, spacing: 8.0) {
           Text("SwiftUI")
@@ -211,7 +211,7 @@ struct BottomCardView: View {
     .padding(.top, 8)
     .padding(.horizontal, 20)
     .frame(maxWidth: .infinity)
-    .background(Color.white)
+    .background(BlurView(style: .systemThinMaterial))
     .cornerRadius(30)
     .shadow(radius: 20)
   }
